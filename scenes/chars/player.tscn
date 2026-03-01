@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://do2ogqh6l8v6r"]
+
+[ext_resource type="Texture2D" uid="uid://bivd3mgemt177" path="res://icon.svg" id="1_adwjk"]
+[ext_resource type="Script" uid="uid://dyfing16cv74r" path="res://scripts/physics/movement_component.gd" id="2_wyvug"]
+
+[node name="Node2D" type="Node2D" unique_id=1098582660]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2054316586]
+texture = ExtResource("1_adwjk")
+
+[node name="MovementComponent" type="Node" parent="." unique_id=534349790]
+script = ExtResource("2_wyvug")
+
+[node name="VelocityComponent" type="Node" parent="." unique_id=63396060]
