@@ -11,8 +11,9 @@ config_version=5
 [application]
 
 config/name="top-down-shooter"
+run/main_scene="uid://cl48cnd00h6bs"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://assets/player/sprites/icon.svg"
 
 [input]
 
