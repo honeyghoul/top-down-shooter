@@ -1,6 +1,15 @@
 class_name PlayerController
 extends CharacterBody2D
 
+enum Facing {
+	LEFT,
+	RIGHT,
+	UP,
+	DOWN
+}
+
+var _facing: Facing = Facing.DOWN
+
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
 @onready var state_machine: StateMachine = $StateMachine
 @onready var sprite: Sprite2D = $Sprite2D
